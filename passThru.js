@@ -12,10 +12,8 @@
 
     class Pencil {
         constructor(ctx) {
-            // const img = new Image;
-
             this.ctx = ctx;
-            // this.img = img;
+
             this.y = 300;
             this.x = 100;
 
