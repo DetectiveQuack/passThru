@@ -117,9 +117,7 @@
             startGame();
         },
 
-        startGame = () => {
-            this.intervalId = setInterval(draw, (1000 / fps));
-        },
+        startGame = () => { this.intervalId = setInterval(draw, (1000 / fps)); },
 
         draw = () => {
             const ctx = _this.ctx,
